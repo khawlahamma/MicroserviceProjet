@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: user-service
+  datasource:
+    url: jdbc:mysql://mysql-user:3306/db_user
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: emprunter-service
+  datasource:
+    url: jdbc:mysql://mysql-emprunter:3306/db_emprunter
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: book-service
+  datasource:
+    url: jdbc:mysql://mysql-book:3306/db_book
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
