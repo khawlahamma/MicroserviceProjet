@@ -9,6 +9,7 @@ services:
     build: ./api-gateway
     ports: ["8080:8080"]
 
+
   mysql-user:
     image: mysql:8
     environment:
