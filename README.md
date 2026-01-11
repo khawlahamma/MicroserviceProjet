@@ -164,14 +164,9 @@ microservice/
 - **Apache Kafka** (Messaging asynchrone)
 - **Docker & Docker Compose** (Conteneurisation)
 
-## 📝 Notes Importantes
 
-- Cette architecture doit être conservée et étendue
-- Chaque service métier possède sa propre base de données MySQL
-- La communication asynchrone via Kafka découple la logique métier de la logique de notification
-- Le Notification Service est entièrement découplé (aucun appel REST entrant)
 
-## 🐛 Dépannage
+##  Dépannage
 
 ### Problèmes de connexion MySQL
 - Vérifier que les conteneurs MySQL sont démarrés : `docker-compose ps`
@@ -187,4 +182,4 @@ microservice/
 
 ---
 
-**Développé par :** Khawla Khamma
+**Développé par :** Khawla hamma
